@@ -27,7 +27,18 @@ User → Agent (FastAPI) → Keycloak (IdP) → Resource API (Calendar) ↓ ↓ 
 - Keycloak 23.0
 
 ## Project Structure
-project1-oauth-agent/ ├── agent.py # OAuth client with PKCE implementation ├── config.py # Keycloak configuration ├── resource_api.py # Protected calendar API ├── requirements.txt # Python dependencies ├── docker-compose.yml # Keycloak container ├── TODO.md # Deep-dive learning items └── README.md # This file
+
+```
+project1-oauth-agent/
+├── agent.py              # OAuth client with PKCE implementation
+├── config.py             # Keycloak configuration
+├── resource_api.py       # Protected calendar API
+├── requirements.txt      # Python dependencies
+├── docker-compose.yml    # Keycloak container
+├── sarah.png            # OAuth flow diagram
+├── TODO.md              # Deep-dive learning items
+└── README.md            # This file
+```
 
 ## Setup
 

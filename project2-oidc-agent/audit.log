@@ -1,0 +1,6 @@
+[2025-10-25 13:57:44] User: sarah@example.com (Sarah Smith) | Action: authorized_agent | Agent: ai-agent-client
+[2025-10-25 13:58:16] User: sarah@example.com (Sarah Smith) | Action: accessed_calendar | Agent: ai-agent-client
+[2025-10-25 14:00:40] User: sarah@example.com (Sarah Smith) | Action: authorized_agent | Agent: ai-agent-client
+[2025-10-25 14:00:41] User: sarah@example.com (Sarah Smith) | Action: accessed_calendar | Agent: ai-agent-client
+[2025-10-25 14:03:52] User: sarah@example.com (Sarah Smith) | Action: authorized_agent | Agent: ai-agent-client
+[2025-10-25 14:03:53] User: sarah@example.com (Sarah Smith) | Action: accessed_calendar | Agent: ai-agent-client

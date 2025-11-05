@@ -271,7 +271,6 @@ From this project, you learned:
 ## 👨‍💻 Author
 
 **Chamin Lokugamage**  
-Senior Software Engineer @ HPE  
 PhD in Computer Science (Scalable Data Systems)
 
 ---

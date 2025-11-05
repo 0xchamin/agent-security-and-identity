@@ -214,6 +214,17 @@ graph TB
 
 ```
 
+**Diagram Description:**
+
+The architecture diagram illustrates the complete flow of an authenticated user query through the system:
+
+1. **Authentication Layer** (Steps 1-4): User authenticates via Keycloak, agent obtains GitHub access token
+2. **Intelligence Layer** (Steps 5-6): LLM analyzes natural language and selects appropriate tool
+3. **Tool Discovery** (Steps 7-9): MCP client connects to GitHub MCP server and discovers 26 available tools
+4. **Execution Layer** (Steps 10-13): Selected tool is invoked, GitHub API call is made, results returned
+5. **Response & Audit** (Steps 14-17): Results logged for compliance, displayed to user
+
+The color coding represents different system layers: blue (user), red (auth providers), green (agent core), yellow (LLM), purple (MCP), pink (audit).
 ---
 
 ## 📝 Standards & Protocols
@@ -270,22 +281,4 @@ PhD in Computer Science (Scalable Data Systems)
 MIT License - See LICENSE file for details
 
 ---
-
-**Project Status:** ✅ POC Complete | 🚧 Production Hardening (Project 3.5)
 ```
-
----
-
-**Diagram Description:**
-
-The architecture diagram illustrates the complete flow of an authenticated user query through the system:
-
-1. **Authentication Layer** (Steps 1-4): User authenticates via Keycloak, agent obtains GitHub access token
-2. **Intelligence Layer** (Steps 5-6): LLM analyzes natural language and selects appropriate tool
-3. **Tool Discovery** (Steps 7-9): MCP client connects to GitHub MCP server and discovers 26 available tools
-4. **Execution Layer** (Steps 10-13): Selected tool is invoked, GitHub API call is made, results returned
-5. **Response & Audit** (Steps 14-17): Results logged for compliance, displayed to user
-
-The color coding represents different system layers: blue (user), red (auth providers), green (agent core), yellow (LLM), purple (MCP), pink (audit).
-
-Ready to create the diagram or make any adjustments to the README?

@@ -261,7 +261,7 @@ From this project, you learned:
 
 ## 📚 References
 
-- [OpenID Foundation: Identity Management for Agentic AI](https://openid.net/specs/)
+- [OpenID Foundation: Identity Management for Agentic AI]()
 - [Model Context Protocol Specification](https://modelcontextprotocol.io/)
 - [GitHub MCP Server](https://github.com/github/github-mcp-server)
 - [Ollama Documentation](https://ollama.ai/)
